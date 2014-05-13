@@ -8,7 +8,7 @@ sample project of drawing wavy line between 2 points on iOS.
 
 The MIT License (MIT)
 
-Copyright (c) <year> <copyright holders>
+Copyright (c) 2014  Hiro Fujimoto xemem.com 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
