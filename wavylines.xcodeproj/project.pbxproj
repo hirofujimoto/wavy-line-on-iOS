@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9375EF6190C9019007F7E7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9375EF5190C9019007F7E7C /* Foundation.framework */; };
+		B9375EF8190C9019007F7E7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9375EF7190C9019007F7E7C /* CoreGraphics.framework */; };
+		B9375EFA190C9019007F7E7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9375EF9190C9019007F7E7C /* UIKit.framework */; };
+		B9375F00190C9019007F7E7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9375EFE190C9019007F7E7C /* InfoPlist.strings */; };
+		B9375F02190C9019007F7E7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9375F01190C9019007F7E7C /* main.m */; };
+		B9375F06190C9019007F7E7C /* WLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9375F05190C9019007F7E7C /* WLAppDelegate.m */; };
+		B9375F09190C9019007F7E7C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9375F07190C9019007F7E7C /* Main_iPhone.storyboard */; };
+		B9375F0C190C9019007F7E7C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9375F0A190C9019007F7E7C /* Main_iPad.storyboard */; };
+		B9375F0F190C9019007F7E7C /* WLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9375F0E190C9019007F7E7C /* WLViewController.m */; };
+		B9375F11190C9019007F7E7C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9375F10190C9019007F7E7C /* Images.xcassets */; };
+		B9375F18190C9019007F7E7C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9375F17190C9019007F7E7C /* XCTest.framework */; };
+		B9375F19190C9019007F7E7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9375EF5190C9019007F7E7C /* Foundation.framework */; };
+		B9375F1A190C9019007F7E7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9375EF9190C9019007F7E7C /* UIKit.framework */; };
+		B9375F22190C9019007F7E7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9375F20190C9019007F7E7C /* InfoPlist.strings */; };
+		B9375F24190C9019007F7E7C /* wavylinesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9375F23190C9019007F7E7C /* wavylinesTests.m */; };
+		B9375F2F190C9573007F7E7C /* WLDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9375F2E190C9573007F7E7C /* WLDrawingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9375F1B190C9019007F7E7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9375EEA190C9018007F7E7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9375EF1190C9019007F7E7C;
+			remoteInfo = wavylines;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9375EF2190C9019007F7E7C /* wavylines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wavylines.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9375EF5190C9019007F7E7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B9375EF7190C9019007F7E7C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B9375EF9190C9019007F7E7C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B9375EFD190C9019007F7E7C /* wavylines-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wavylines-Info.plist"; sourceTree = "<group>"; };
+		B9375EFF190C9019007F7E7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9375F01190C9019007F7E7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9375F03190C9019007F7E7C /* wavylines-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wavylines-Prefix.pch"; sourceTree = "<group>"; };
+		B9375F04190C9019007F7E7C /* WLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLAppDelegate.h; sourceTree = "<group>"; };
+		B9375F05190C9019007F7E7C /* WLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLAppDelegate.m; sourceTree = "<group>"; };
+		B9375F08190C9019007F7E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		B9375F0B190C9019007F7E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		B9375F0D190C9019007F7E7C /* WLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLViewController.h; sourceTree = "<group>"; };
+		B9375F0E190C9019007F7E7C /* WLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLViewController.m; sourceTree = "<group>"; };
+		B9375F10190C9019007F7E7C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B9375F16190C9019007F7E7C /* wavylinesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wavylinesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9375F17190C9019007F7E7C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B9375F1F190C9019007F7E7C /* wavylinesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wavylinesTests-Info.plist"; sourceTree = "<group>"; };
+		B9375F21190C9019007F7E7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9375F23190C9019007F7E7C /* wavylinesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wavylinesTests.m; sourceTree = "<group>"; };
+		B9375F2D190C9573007F7E7C /* WLDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLDrawingView.h; sourceTree = "<group>"; };
+		B9375F2E190C9573007F7E7C /* WLDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLDrawingView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9375EEF190C9019007F7E7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9375EF8190C9019007F7E7C /* CoreGraphics.framework in Frameworks */,
+				B9375EFA190C9019007F7E7C /* UIKit.framework in Frameworks */,
+				B9375EF6190C9019007F7E7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9375F13190C9019007F7E7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9375F18190C9019007F7E7C /* XCTest.framework in Frameworks */,
+				B9375F1A190C9019007F7E7C /* UIKit.framework in Frameworks */,
+				B9375F19190C9019007F7E7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9375EE9190C9018007F7E7C = {
+			isa = PBXGroup;
+			children = (
+				B9375EFB190C9019007F7E7C /* wavylines */,
+				B9375F1D190C9019007F7E7C /* wavylinesTests */,
+				B9375EF4190C9019007F7E7C /* Frameworks */,
+				B9375EF3190C9019007F7E7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9375EF3190C9019007F7E7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9375EF2190C9019007F7E7C /* wavylines.app */,
+				B9375F16190C9019007F7E7C /* wavylinesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9375EF4190C9019007F7E7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9375EF5190C9019007F7E7C /* Foundation.framework */,
+				B9375EF7190C9019007F7E7C /* CoreGraphics.framework */,
+				B9375EF9190C9019007F7E7C /* UIKit.framework */,
+				B9375F17190C9019007F7E7C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9375EFB190C9019007F7E7C /* wavylines */ = {
+			isa = PBXGroup;
+			children = (
+				B9375F04190C9019007F7E7C /* WLAppDelegate.h */,
+				B9375F05190C9019007F7E7C /* WLAppDelegate.m */,
+				B9375F07190C9019007F7E7C /* Main_iPhone.storyboard */,
+				B9375F0A190C9019007F7E7C /* Main_iPad.storyboard */,
+				B9375F0D190C9019007F7E7C /* WLViewController.h */,
+				B9375F0E190C9019007F7E7C /* WLViewController.m */,
+				B9375F2D190C9573007F7E7C /* WLDrawingView.h */,
+				B9375F2E190C9573007F7E7C /* WLDrawingView.m */,
+				B9375F10190C9019007F7E7C /* Images.xcassets */,
+				B9375EFC190C9019007F7E7C /* Supporting Files */,
+			);
+			path = wavylines;
+			sourceTree = "<group>";
+		};
+		B9375EFC190C9019007F7E7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9375EFD190C9019007F7E7C /* wavylines-Info.plist */,
+				B9375EFE190C9019007F7E7C /* InfoPlist.strings */,
+				B9375F01190C9019007F7E7C /* main.m */,
+				B9375F03190C9019007F7E7C /* wavylines-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9375F1D190C9019007F7E7C /* wavylinesTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9375F23190C9019007F7E7C /* wavylinesTests.m */,
+				B9375F1E190C9019007F7E7C /* Supporting Files */,
+			);
+			path = wavylinesTests;
+			sourceTree = "<group>";
+		};
+		B9375F1E190C9019007F7E7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9375F1F190C9019007F7E7C /* wavylinesTests-Info.plist */,
+				B9375F20190C9019007F7E7C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9375EF1190C9019007F7E7C /* wavylines */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9375F27190C9019007F7E7C /* Build configuration list for PBXNativeTarget "wavylines" */;
+			buildPhases = (
+				B9375EEE190C9019007F7E7C /* Sources */,
+				B9375EEF190C9019007F7E7C /* Frameworks */,
+				B9375EF0190C9019007F7E7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wavylines;
+			productName = wavylines;
+			productReference = B9375EF2190C9019007F7E7C /* wavylines.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9375F15190C9019007F7E7C /* wavylinesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9375F2A190C9019007F7E7C /* Build configuration list for PBXNativeTarget "wavylinesTests" */;
+			buildPhases = (
+				B9375F12190C9019007F7E7C /* Sources */,
+				B9375F13190C9019007F7E7C /* Frameworks */,
+				B9375F14190C9019007F7E7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9375F1C190C9019007F7E7C /* PBXTargetDependency */,
+			);
+			name = wavylinesTests;
+			productName = wavylinesTests;
+			productReference = B9375F16190C9019007F7E7C /* wavylinesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9375EEA190C9018007F7E7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = xemem;
+				TargetAttributes = {
+					B9375EF1190C9019007F7E7C = {
+						DevelopmentTeam = RPAB4UP5TG;
+					};
+					B9375F15190C9019007F7E7C = {
+						TestTargetID = B9375EF1190C9019007F7E7C;
+					};
+				};
+			};
+			buildConfigurationList = B9375EED190C9018007F7E7C /* Build configuration list for PBXProject "wavylines" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9375EE9190C9018007F7E7C;
+			productRefGroup = B9375EF3190C9019007F7E7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9375EF1190C9019007F7E7C /* wavylines */,
+				B9375F15190C9019007F7E7C /* wavylinesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9375EF0190C9019007F7E7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9375F0C190C9019007F7E7C /* Main_iPad.storyboard in Resources */,
+				B9375F11190C9019007F7E7C /* Images.xcassets in Resources */,
+				B9375F09190C9019007F7E7C /* Main_iPhone.storyboard in Resources */,
+				B9375F00190C9019007F7E7C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9375F14190C9019007F7E7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9375F22190C9019007F7E7C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9375EEE190C9019007F7E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9375F2F190C9573007F7E7C /* WLDrawingView.m in Sources */,
+				B9375F0F190C9019007F7E7C /* WLViewController.m in Sources */,
+				B9375F02190C9019007F7E7C /* main.m in Sources */,
+				B9375F06190C9019007F7E7C /* WLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9375F12190C9019007F7E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9375F24190C9019007F7E7C /* wavylinesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9375F1C190C9019007F7E7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9375EF1190C9019007F7E7C /* wavylines */;
+			targetProxy = B9375F1B190C9019007F7E7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9375EFE190C9019007F7E7C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9375EFF190C9019007F7E7C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B9375F07190C9019007F7E7C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9375F08190C9019007F7E7C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B9375F0A190C9019007F7E7C /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9375F0B190C9019007F7E7C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B9375F20190C9019007F7E7C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9375F21190C9019007F7E7C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9375F25190C9019007F7E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9375F26190C9019007F7E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9375F28190C9019007F7E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wavylines/wavylines-Prefix.pch";
+				INFOPLIST_FILE = "wavylines/wavylines-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B9375F29190C9019007F7E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wavylines/wavylines-Prefix.pch";
+				INFOPLIST_FILE = "wavylines/wavylines-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B9375F2B190C9019007F7E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/wavylines.app/wavylines";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wavylines/wavylines-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "wavylinesTests/wavylinesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B9375F2C190C9019007F7E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/wavylines.app/wavylines";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wavylines/wavylines-Prefix.pch";
+				INFOPLIST_FILE = "wavylinesTests/wavylinesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9375EED190C9018007F7E7C /* Build configuration list for PBXProject "wavylines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9375F25190C9019007F7E7C /* Debug */,
+				B9375F26190C9019007F7E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9375F27190C9019007F7E7C /* Build configuration list for PBXNativeTarget "wavylines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9375F28190C9019007F7E7C /* Debug */,
+				B9375F29190C9019007F7E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9375F2A190C9019007F7E7C /* Build configuration list for PBXNativeTarget "wavylinesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9375F2B190C9019007F7E7C /* Debug */,
+				B9375F2C190C9019007F7E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9375EEA190C9018007F7E7C /* Project object */;
+}
